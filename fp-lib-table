@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name w_conn_strip)(type Legacy)(uri "/Users/rroemer/Dropbox/Projekte/Kicad Library/download/modules/w_conn_strip.mod")(options "")(descr "")(disabled))
+  (lib (name w_pth_circuits)(type Legacy)(uri "/Users/rroemer/Dropbox/Projekte/Kicad Library/download/modules/w_pth_circuits.mod")(options "")(descr "")(disabled))
+  (lib (name w_conn_screw)(type Legacy)(uri "/Users/rroemer/Dropbox/Projekte/Kicad Library/download/modules/w_conn_screw.mod")(options "")(descr "")(disabled))
+  (lib (name Customized)(type KiCad)(uri $KIPRJMOD/../Customized.pretty)(options "")(descr "")(disabled))
+)

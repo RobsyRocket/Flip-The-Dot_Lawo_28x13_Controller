@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-16 BZR 5324)-product   date = Donnerstag, 18. Juni 2015 01:00:02
+
+BeginCmp
+TimeStamp = /5581F6B4;
+Reference = C1;
+ValeurCmp = CP_Small;
+IdModule  = Capacitors_SMD:c_elec_6.3x5.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /555E57A8;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = Connect:BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /557CD746;
+Reference = CON2;
+ValeurCmp = CONN_1x02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /5581FA24;
+Reference = D1;
+ValeurCmp = Diode_Bridge;
+IdModule  = Housings_DIP:DIP-6_W7.62mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /555E588F;
+Reference = DIL1;
+ValeurCmp = FP2800a;
+IdModule  = Housings_DIP:DIP-40_W15.24mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /557CD249;
+Reference = J1;
+ValeurCmp = Display Power;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CD7DA;
+Reference = P1;
+ValeurCmp = CONN_02X25;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x25;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E587D;
+Reference = P2;
+ValeurCmp = CONN_01X15;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E58B1;
+Reference = P3;
+ValeurCmp = CONN_01X15;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = /55758C2E;
+Reference = P8;
+ValeurCmp = CONN_01X15;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x15;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E2ACA;
+Reference = Q1;
+ValeurCmp = PN2222A;
+IdModule  = Housings_TO-92:TO-92_Horizontal2_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E2B3D;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E2B8E;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E2B15;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55635A98;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55761B23;
+Reference = U1;
+ValeurCmp = LT1129IST-5;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+EndListe
