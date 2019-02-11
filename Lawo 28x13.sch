@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Lawo 28x13 Flip Dot Interface"
 Date "2019-01-21"
-Rev "0.12"
+Rev "1.1.0"
 Comp "Flip-The-Dot"
 Comment1 "Robert Römer"
 Comment2 "Interface to control a Lawo flip dot matrix with a 28x13 resolution."
@@ -37,8 +37,6 @@ F 3 "http://pdf.datasheetcatalog.com/datasheets/320/500899_DS.pdf" H 7750 1650 6
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7200 1400
-NoConn ~ 3300 1800
-NoConn ~ 2800 1900
 $Comp
 L power:GND #PWR01
 U 1 1 556CDCF9
@@ -107,7 +105,7 @@ L device:CP C2
 U 1 1 5581F6B4
 P 8200 5550
 F 0 "C2" H 8210 5620 50  0000 L CNN
-F 1 "22uF" V 8400 5450 50  0000 L CNN
+F 1 "22μF" V 8400 5450 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 8200 5550 60  0001 C CNN
 F 3 "" H 8200 5550 60  0000 C CNN
 	1    8200 5550
@@ -359,7 +357,7 @@ L device:C C1
 U 1 1 57A23F01
 P 9750 3000
 F 0 "C1" H 9775 3100 50  0000 L CNN
-F 1 "0.22uF" H 9775 2900 50  0000 L CNN
+F 1 "0.22μF" H 9775 2900 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 9788 2850 50  0001 C CNN
 F 3 "" H 9750 3000 50  0000 C CNN
 	1    9750 3000
@@ -368,12 +366,12 @@ $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 57D72A87
-P 4000 1600
-F 0 "#PWR06" H 4000 1350 50  0001 C CNN
-F 1 "GND" V 4000 1410 50  0000 C CNN
-F 2 "" H 4000 1600 60  0000 C CNN
-F 3 "" H 4000 1600 60  0000 C CNN
-	1    4000 1600
+P 4100 1600
+F 0 "#PWR06" H 4100 1350 50  0001 C CNN
+F 1 "GND" V 4100 1410 50  0000 C CNN
+F 2 "" H 4100 1600 60  0000 C CNN
+F 3 "" H 4100 1600 60  0000 C CNN
+	1    4100 1600
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -704,8 +702,6 @@ Connection ~ 6600 5900
 Wire Wire Line
 	6300 4800 6600 4800
 Wire Wire Line
-	3300 1600 4000 1600
-Wire Wire Line
 	1700 1700 2800 1700
 Wire Wire Line
 	2000 2300 2800 2300
@@ -724,12 +720,6 @@ Wire Wire Line
 	4700 6100 4700 5500
 Wire Notes Line
 	3300 4800 3300 7200
-Wire Notes Line
-	700  4800 700  7200
-Wire Notes Line
-	700  7200 3000 7200
-Wire Notes Line
-	3000 7200 3000 4800
 Text Notes 3400 5000 0    60   ~ 0
 Power Levels
 $Comp
@@ -1056,4 +1046,39 @@ Connection ~ 6600 4800
 Wire Wire Line
 	7400 4800 7800 4800
 Connection ~ 7800 4800
+Text GLabel 3600 1800 2    60   Input ~ 0
+COL_ENABLE_zR
+Text GLabel 2500 1900 0    60   Input ~ 0
+COL_ENABLE_yR
+Wire Wire Line
+	2500 1900 2800 1900
+Wire Wire Line
+	3300 1800 3600 1800
+$Comp
+L Connector:Conn_01x02 I3
+U 1 1 5C610766
+P 1300 7350
+F 0 "I3" H 1300 7450 50  0000 C CNN
+F 1 "Spare Enable" V 1400 7350 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" V 1500 7350 60  0001 C CNN
+F 3 "" H 1300 7350 60  0000 C CNN
+	1    1300 7350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1900 7350 2    60   Output ~ 0
+COL_ENABLE_yR
+Text GLabel 1900 7450 2    60   Output ~ 0
+COL_ENABLE_zR
+Wire Wire Line
+	1900 7450 1500 7450
+Wire Wire Line
+	1500 7350 1900 7350
+Wire Notes Line
+	3000 7650 700  7650
+Wire Notes Line
+	700  4800 700  7650
+Wire Notes Line
+	3000 4800 3000 7650
+Wire Wire Line
+	3300 1600 4100 1600
 $EndSCHEMATC

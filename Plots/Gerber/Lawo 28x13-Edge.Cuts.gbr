@@ -1,11 +1,11 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0-rc3-dev)*
-G04 #@! TF.CreationDate,2019-01-29T23:40:13+01:00*
-G04 #@! TF.ProjectId,Lawo 28x13,4C61776F2032387831332E6B69636164,0.12*
+G04 #@! TF.CreationDate,2019-02-11T22:12:22+01:00*
+G04 #@! TF.ProjectId,Lawo 28x13,4C61776F2032387831332E6B69636164,1.1.0*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.0-rc3-dev)) date 2019 January 29, Tuesday 23:40:13*
+G04 Created by KiCad (PCBNEW (5.0.0-rc3-dev)) date 2019 February 11, Monday 22:12:22*
 %MOMM*%
 %LPD*%
 G01*
