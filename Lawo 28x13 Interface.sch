@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Lawo 28x13 Flip Dot Interface"
-Date "2019-01-21"
-Rev "1.1.0"
+Date "2019-04-27"
+Rev "1.1.1"
 Comp "Flip-The-Dot"
 Comment1 "Robert Römer"
 Comment2 "Interface to control a Lawo flip dot matrix with a 28x13 resolution."
