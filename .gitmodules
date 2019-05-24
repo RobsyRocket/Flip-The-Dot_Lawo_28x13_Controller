@@ -1,0 +1,3 @@
+[submodule "KiCad libraries/FP2800a"]
+	path = KiCad libraries/FP2800a
+	url = https://github.com/RobsyRocket/FP2800a

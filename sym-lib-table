@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name Lawo-28x13-Interface-rescue)(type Legacy)(uri "${KIPRJMOD}/Lawo 28x13 Interface-rescue.lib")(options "")(descr "")(disabled))
-  (lib (name FP2800a)(type Legacy)(uri "/Users/rroemer/Dropbox/Projekte/Flip-The-Dot/Documentation/KiCad Library/FP2800a/FP2800a.lib")(options "")(descr ""))
-  (lib (name TSR-1)(type Legacy)(uri "/Users/rroemer/Dropbox/Projekte/Flip-The-Dot/Documentation/KiCad Library/TSR-1/TSR-1.lib")(options "")(descr ""))
+  (lib (name FP2800a)(type Legacy)(uri "${KIPRJMOD}/KiCad libraries/FP2800a/FP2800a.lib")(options "")(descr ""))
 )
