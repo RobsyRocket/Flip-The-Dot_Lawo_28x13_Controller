@@ -5,12 +5,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Lawo 28x13 Flip Dot Interface"
-Date "2019-04-27"
-Rev "1.1.1"
+Title "Lawo 50pin Flip Dot Interface (FP2800a)"
+Date "2019-06-23"
+Rev "1.1.2"
 Comp "Flip-The-Dot"
 Comment1 "Robert Römer"
-Comment2 "Interface to control a Lawo flip dot matrix with a 28x13 resolution."
+Comment2 "Interface to control Lawo flip dot matrixes with 50pin connectors and up to 28x14 dots each."
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -239,7 +239,7 @@ COL_DATA
 Text GLabel 2500 2000 0    60   Input ~ 0
 COL_B1
 Text GLabel 2500 1800 0    60   Input ~ 0
-COL_ENABLE_oR
+COL_ENABLE_A
 Text GLabel 1900 5900 2    60   Output ~ 0
 ROW_A1
 Text GLabel 1900 5800 2    60   Output ~ 0
@@ -323,7 +323,7 @@ F 3 "" V 10000 5550 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 3600 1900 2    60   Input ~ 0
-COL_ENABLE_mR
+COL_ENABLE_D
 Text GLabel 1900 6500 2    60   Output ~ 0
 COL_DATA
 $Comp
@@ -338,9 +338,9 @@ F 3 "" H 8850 4950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1900 6300 2    60   Output ~ 0
-COL_ENABLE_mR
+COL_ENABLE_A
 Text GLabel 1900 6400 2    60   Output ~ 0
-COL_ENABLE_oR
+COL_ENABLE_D
 $Comp
 L device:R R1
 U 1 1 57A23E6A
@@ -1047,9 +1047,9 @@ Wire Wire Line
 	7400 4800 7800 4800
 Connection ~ 7800 4800
 Text GLabel 3600 1800 2    60   Input ~ 0
-COL_ENABLE_zR
+COL_ENABLE_B
 Text GLabel 2500 1900 0    60   Input ~ 0
-COL_ENABLE_yR
+COL_ENABLE_C
 Wire Wire Line
 	2500 1900 2800 1900
 Wire Wire Line
@@ -1066,9 +1066,9 @@ F 3 "" H 1300 7350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 1900 7350 2    60   Output ~ 0
-COL_ENABLE_yR
+COL_ENABLE_B
 Text GLabel 1900 7450 2    60   Output ~ 0
-COL_ENABLE_zR
+COL_ENABLE_C
 Wire Wire Line
 	1900 7450 1500 7450
 Wire Wire Line
